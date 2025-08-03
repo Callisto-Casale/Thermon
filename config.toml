@@ -1,0 +1,15 @@
+[fixed]
+hue_bridge_ip = "192.168.1.158" # IP address of the HUE bridge
+
+[variable]
+smart_plug_name = "plug"        # Name of smart plug in the HUE app
+max_temperature = 40            # Max temperature of device
+
+[logging]
+level = "INFO"                  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+file = "app.log"                # Log file path
+console = true                  # Whether to log to the console
+
+[system]
+high_temp = 40                  # Highest temperature of the PI
+low_temp = 35                   # Lowest temperature threshold of the PI
