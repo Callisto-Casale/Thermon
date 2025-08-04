@@ -2,6 +2,8 @@
 Thermon is a utility terminal app which can control a Philips Hue smart plug.
 I have created this tool to turn on/off a ventillator once the temperature reaches a certain degree.
 
+<img width="200" height="435" alt="Make a icon showing a Philips Hue Smart plug and Python  Make it look modern and cartoon-ish" src="https://github.com/user-attachments/assets/0095b09b-f234-45da-8aac-edec2abaaff4" />
+
 ```python
 /c/users/user/coding/thermon
 > python .\main.py -t 50
